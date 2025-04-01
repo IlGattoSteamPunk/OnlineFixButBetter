@@ -24,10 +24,15 @@ document.addEventListener('DOMContentLoaded', () => {
             downloadUrl: "https://d-jp02-zen.terabox.com/file/a12ad3a8c0ad55fb940803c92e10e28c?bkt=en-29a7ad5d1913bc6fd7912e5912fe47e8a9788ce0b50ff2896129eb06ed255d8d24f1727471c7b800&xcode=5c0a8e29ee04a59ffa0e48597f39f5ca6165f1d34cb8d8d09656e1974df64bead35fe933c0654f405cc643bf116e561248f9fe27c18036c1&fid=4399837751620-250528-254661527970203&time=1743439934&sign=FDTAXUGERLQlBHSKfWon-DCb740ccc5511e5e8fedcff06b081203-iT1mtG4PKzbUVzwFrB64iaBdT54%3D&to=149&size=28964271&sta_dx=28964271&sta_cs=0&sta_ft=rar&sta_ct=0&sta_mt=0&fm2=MH%2Ctky%2CAnywhere%2C%2CTGlndXJpYQ%3D%3D%2Cany&region=tky&ctime=1743439923&mtime=1743439923&resv0=-1&resv1=0&resv2=rlim&resv3=5&resv4=28964271&vuk=4399837751620&iv=0&htype=&randtype=&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=en-fb1bb60f91ee5cfe16ddcfaa651ee0eeba4939b2e5ce1d8d4a77dab3b756c406c6622714181a1437&sl=68091977&expires=1743468734&rt=pr&r=296556146&vbdid=-&fin=JBAASBR_FIX_V1.rar&fn=JBAASBR_FIX_V1.rar&rtype=1&dp-logid=9005724358467376930&dp-callid=0.1&hps=1&tsl=2000&csl=2000&fsl=-1&csign=7sjyf87bgxbFrMxM1mTy3NonOc4%3D&so=0&ut=6&uter=4&serv=0&uc=2134704434&ti=e6e2f9d25109af0ea418fc55730d534969685f988a1714c3&tuse=&raw_appid=0&ogr=0&rregion=XVVi&adg=&reqlabel=250528_f_3277a0fddeaa984e0d00de1ebc019d4b_-1_4a4d99ff6f44fdf76af091235c3c35f2&ccn=IT&by=themis",
             image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1372110/header.jpg?t=1720409046"
         },
+        {
+            title: "R.E.P.O",
+            version: "v3",
+            downloadUrl: "https://d-jp02-zen.terabox.com/file/8df01b62297cd009abb41f9088a6463d?bkt=en-2bd419aa17f4904f2b99cb19c6b097f7200de007eadc8a423f9b436625bb23620b536135866783ff&xcode=3f5ee486d0eb34cf23498d893997f3f25ba29c5bf9f9fc03196f4c99b757239793403b956b3491075cc643bf116e561248f9fe27c18036c1&fid=4399837751620-250528-795302608530667&time=1743529369&sign=FDTAXUGERLQlBHSKfWon-DCb740ccc5511e5e8fedcff06b081203-AuAbs95M1PG8%2BUrnDN9DKiMGgTI%3D&to=149&size=11626007&sta_dx=11626007&sta_cs=0&sta_ft=zip&sta_ct=0&sta_mt=0&fm2=MH%2Ctky%2CAnywhere%2C%2CTGlndXJpYQ%3D%3D%2Cany&region=tky&ctime=1743529262&mtime=1743529262&resv0=-1&resv1=0&resv2=rlim&resv3=5&resv4=11626007&vuk=4399837751620&iv=0&htype=&randtype=&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=en-0d8931ae8a27e164bf80ff6db5f7133145abcc1999a4425de4cd67c4fd3db7984c5f311b37f201b8&sl=68091977&expires=1743558169&rt=pr&r=205229134&vbdid=-&fin=R.E.P.O_FIX_V3.zip&fn=R.E.P.O_FIX_V3.zip&rtype=1&dp-logid=9029731680666477961&dp-callid=0.1&hps=1&tsl=2000&csl=2000&fsl=-1&csign=7sjyf87bgxbFrMxM1mTy3NonOc4%3D&so=0&ut=6&uter=4&serv=0&uc=2134704434&ti=e6e2f9d25109af0e5f6080ec550ce7d98e12aaa4d5a4cdd3&tuse=&raw_appid=0&ogr=0&rregion=XVVi&adg=&reqlabel=250528_f_3277a0fddeaa984e0d00de1ebc019d4b_-1_4a4d99ff6f44fdf76af091235c3c35f2&ccn=IT&by=themis",
+            image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg?t=1743517226"
+        },
     ];
     
     const grid = document.querySelector('.games-grid');
-    
     // Genera le card
     games.forEach((game, index) => {
         const card = document.createElement('div');
