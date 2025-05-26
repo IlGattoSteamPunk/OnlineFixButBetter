@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Split Fiction (NON DISPONIBILE)",
             version: "v1",
-            downloadUrl: "https://d-jp02-zen.terabox.com/file/d78309fa1823de7e2bc6f3be87f48b7f?bkt=en-4d166c0718877615cdb2fd3d19bd0d69296b97ae37ad4ca8395aa93f04f5dfa65e7d6cb15591ac1d&xcode=29c4bf3059f14c09fcda0c4de41877349b1c8858e60915324efb87e926c9555144aa202a44656ce1786c2bea75c2491195f3f663dd698774&fid=4399837751620-250528-872975963811772&time=1743782710&sign=FDTAXUGERLQlBHSKfWon-DCb740ccc5511e5e8fedcff06b081203-gvozCETJwuQM9BPEDEjtqS5flw0%3D&to=149&size=10392918&sta_dx=10392918&sta_cs=0&sta_ft=rar&sta_ct=0&sta_mt=0&fm2=MH%2Ctky%2CAnywhere%2C%2CUGllZG1vbnQ%3D%2Cany&region=tky&ctime=1743782645&mtime=1743782645&resv0=-1&resv1=0&resv2=rlim&resv3=5&resv4=10392918&vuk=4399837751620&iv=0&htype=&randtype=&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=en-82094c47e439019d93e1c6baff30fcb5ec2727d2ae412eb7b6703f75534e8fb686bb8918abd8bf0d&sl=68091977&expires=1743811510&rt=pr&r=566997856&vbdid=-&fin=Split_Finction_FIX_V1.rar&fn=Split_Finction_FIX_V1.rar&rtype=1&dp-logid=9097737438696687853&dp-callid=0.1&hps=1&tsl=2000&csl=2000&fsl=-1&csign=7sjyf87bgxbFrMxM1mTy3NonOc4%3D&so=0&ut=6&uter=4&serv=0&uc=1208876022&ti=e6e2f9d25109af0ed4dcc5557b193c66d48ce6acc0790fc7&tuse=&raw_appid=0&ogr=0&rregion=XVVi&adg=&reqlabel=250528_f_11cd5782cc4fa801d86ed31fd76ff5d8_-1_ccf1a210045f6fadbf728a966c776a14&ccn=IT&by=themis",
+            downloadUrl: "https://d-jp02-zen.terabox.com/file/d78309fa1823de7e2bc6f3be87f48b7f?bkt=en-4d166c0718877615cdb2fd3d19bd0d69296b97ae37ad4ca8395aa93f04f5dfa65e7d6cb15591ac1d&xcode=29c4bf3059f14c09fcda0c4de41877349b1c8858e60915324efb87e926c9555144aa202a44656ce1786c2bea75c2491195f3f663dd698774&fid=4399837751620-250528-872975963811772&time=1743782710&sign=FDTAXUGERLQlBHSKfWon-DCb740ccc5511e5e8fedcff06b081203-gvozCETJwuQM9BPEDEjtqS5flw0%3D&to=149&size=10392918&sta_dx=10392918&sta_cs=0&sta_ft=rar&sta_ct=0&sta_mt=0&fm2=MH%2Ctky%2CAnywhere%2C%2CUGllZG1vbnQ%3D%2Cany&region=tky&ctime=1743782645&mtime=1743782645&resv0=-1&resv1=0&resv2=rlim&resv3=5&resv4=10392918&vuk=4399837751620&iv=0&htype=&randtype=&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=en-82094c47e439019d93e1c6baff30fcb5ec2727d2ae412eb7b6703f75534e8fb686bb8918abd8bf0d&sl=68091977&expires=1743811510&rt=pr&r=566997856&vbdid=-&fin=Split_Fiction_FIX_V1.rar&fn=Split_Fiction_FIX_V1.rar&rtype=1&dp-logid=9097737438696687853&dp-callid=0.1&hps=1&tsl=2000&csl=2000&fsl=-1&csign=7sjyf87bgxbFrMxM1mTy3NonOc4%3D&so=0&ut=6&uter=4&serv=0&uc=1208876022&ti=e6e2f9d25109af0ed4dcc5557b193c66d48ce6acc0790fc7&tuse=&raw_appid=0&ogr=0&rregion=XVVi&adg=&reqlabel=250528_f_11cd5782cc4fa801d86ed31fd76ff5d8_-1_ccf1a210045f6fadbf728a966c776a14&ccn=IT&by=themis",
             image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg?t=1742852969"
         },
         {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
     ];
     const grid = document.querySelector('.games-grid');
-    // Genera le card
+    // Generate the cards
     games.forEach((game, index) => {
         const card = document.createElement('div');
         card.className = 'game-card';
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         grid.appendChild(card);
     });
 
-    // Funzionalità di ricercaa
+    // Search functionality
     const searchBar = document.querySelector('.search-bar');
     searchBar.addEventListener('input', (e) => {
         const term = e.target.value.toLowerCase();
