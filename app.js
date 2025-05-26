@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         grid.appendChild(card);
     });
 
-    // Funzionalità di ricerca
+    // Funzionalità di ricercaa
     const searchBar = document.querySelector('.search-bar');
     searchBar.addEventListener('input', (e) => {
         const term = e.target.value.toLowerCase();
